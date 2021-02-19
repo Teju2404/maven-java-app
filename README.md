@@ -104,7 +104,7 @@ would create two subdirectories `client-robovm` and `client-moe` which would
 contain their actions (consult the `nbactions.xml` file for details) to build,
 deploy, run and debug (in case of **MOE**) your **iOS** application.
 
-### Browser (plugin-less one)
+### Browser 
 
 There is a way to package each of the archetypes as a set of static web pages
 and run them as a SPA (single-page application) in any modern browser. To enable
@@ -118,17 +118,6 @@ use goal like `mvn bck2brwsr:show` to
 transpile your **Java** virtual machine application to *JavaScript* launch
 your application virtually anywhere. More detailed actions description 
 can be found in the `nbactions.xml` file.
-
-### NetBeans Module
-
-Out of curiosity one can also package the same application as a **NetBeans**
-plugin showing the UI is really portable. One can use it to extend functionality 
-of your IDEs (experiment with Eclipse works as well and IntelliJ is said to work too). 
-Use:
-```
--Dnetbeanspath=client-netbeans
-```
-to generate the necessary subproject.
 
 ## More Information
 
